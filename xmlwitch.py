@@ -43,7 +43,11 @@ class Builder:
 
     def __unicode__(self):
         if is_py2:
-            return self._document.getvalue().decode(self._encoding).strip()
+            val = self._document.getvalue()
+            if type(val) is unicode:
+                return val
+            else:
+                return val.decode(self._encoding).strip()
         else:
             return self._document.getvalue()
 
