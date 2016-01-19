@@ -109,7 +109,7 @@ class Element:
     def _serialized_attrs(self):
         """Serialize attributes for element insertion"""
         serialized = []
-        for attr, value in self.attributes.items():
+        for attr, value in sorted(self.attributes.items()):
             serialized.append(' %s=%s' % (
                 self._nameprep(attr), saxutils.quoteattr(value)
             ))
