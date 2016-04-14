@@ -12,7 +12,7 @@ else:
 
 __all__ = ['Builder', 'Element']
 __license__ = 'BSD'
-__version__ = '0.2.1'
+__version__ = '0.3.0'
 __author__ = "Jonas Galvez <http://jonasgalvez.com.br/>"
 __contributors__ = ["bbolli <http://github.com/bbolli/>",
                     "masklinn <http://github.com/masklinn/>"]

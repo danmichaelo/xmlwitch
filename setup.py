@@ -29,7 +29,7 @@ Setup
 
     $ pip install xmlwitch # or
     $ easy_install xmlwitch # or
-    $ cd xmlwitch-0.2; python setup.py install
+    $ cd xmlwitch-0.3; python setup.py install
 
 Links
 `````
@@ -44,7 +44,7 @@ from distutils.core import setup
 
 setup(
     name = 'xmlwitch',
-    version = '0.2.1',
+    version = '0.3.0',
     url = 'http://jonasgalvez.com.br/Software/XMLWitch.html',
     license = 'BSD',
     author = "Jonas Galvez",
